@@ -1,2 +1,2 @@
-# test
+# Curso python
 Curso python
