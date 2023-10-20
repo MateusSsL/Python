@@ -1,0 +1,84 @@
+============================== Versionamento de arquivos ==========================
+git add .
+git commit -m "update aulas 20/10/2023"
+git push origin aulas
+=========================================
+Criar nova branch:
+git checkout -b new_branch_name
+==========================================
+para retirar o ultimo item de uma lista = lista.pop()
+Transformar 82.5 em 82.50 precisamos formatar com: "{variavel:.2f}"
+print("voce tem {variavel:.2f} Reais")
+====================================================================================
+para colocar uma imagem ou texto grande no terminal use print(''' imagem ''')
+colocar print diferentes na mesma linha print(x, end = " ")
+para centralizar textos print("{:-^40}".format("Mensagem"))
+====================================================================================
+para sempre receber uma resposta util use .lower() no final de input para sempre ter
+repostas com letra minuscula, idependente da resposta do usuario.
+====================================================================================
+transformar numeros de uma lista str em int
+numeros =input("Digite 3 numeros: ").strip().split()
+numero = [int(transforma) for transforma in numeros]
+====================================================================================
+import random
+random_int = random.randint (1, 10)
+# print(f"o numero aleatorio é : {random_int}")
+====================================================================================
+para adicionar um dicionario dentro de uma lista basta
+lista.append(dicionario.copy())
+====================================================================================
+
+Método .startswith(): Para verificar se uma entrada começa com uma determinada sequência
+de caracteres, você pode usar o método .startswith(). Por exemplo:
+entrada = input("Digite algo: ")
+if entrada.startswith("prefixo_desejado"):
+    print("A entrada começa com o prefixo desejado.")
+====================================================================================
+quando juntamos 2 listas em 1 ex
+lista0 = ['pera', 'maça']
+lista1 = ['bola', 'carro']
+listafinal = [lista0 + lista1]
+podemos listar o item2 da primeira lista atraves de:
+ lista[0][1] significa q da lista0 ele vai pegar o segundo item q é maça
+ lista[a lista][o item da lista]
+====================================================================================
+o ultimo item de uma lista é possivel acessar com print(lista[-1]) 
+====================================================================================
+para achar a ultima letra de uma palavra use texto.rfind('X')
+achar ultimo item da lista texto.pop()
+====================================================================================
+
+Bibliotecas e Docomentações+++++++++++
+Listas= https://docs.python.org/3/tutorial/datastructures.html
+random = V1 = random.randint(1, 10) https://docs.python.org/3/library/random.html
+math = math.ceil(V1) math.floor(V1) = math.hipot(x , y) https://docs.python.org/pt-br/3/library/math.html
+time = time
+====================================================================================
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Variaveis if else elif , pode ter varias condiçoes de checagem
+if (condição1 == "TV") or / and (condição2 > 20):
+    faz A
+elif condição3:
+   Faz B 
+else:
+ acontece x
+#====================================================================================
+ Saber se o numero é par usamos o mod % 2 == 0 
+if number % 2 == 0 :
+  print("este é um numero par ou even")
+else :
+  print("este numero é impar ou odds")
+#====================================================================================
+# Use essa função dentro do seu loop para limpar o terminal
+import os
+def limpar_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
+#====================================================================================
+from replit import clear
+#HINT: You can call clear() to clear the output in the console.
+#====================================================================================
+
+#====================================================================================
+
+#====================================================================================

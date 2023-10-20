@@ -1,0 +1,75 @@
+'''Coruja
+Gavião
+Juramento
+Marcha
+Amor
+Placenta
+Cordão Umbilical
+Aeroporto
+Multa de trânsito
+Chuveiro elétrico
+Trator
+Anfíbio
+Escorpião
+Esfinge
+Ronco
+Sinfonia
+Burocracia
+Jardineiro
+Frigorífico
+Jazida
+Hidrelétrica
+Compasso
+Ritmo
+Circo
+Desenho animado
+Geleira
+Zoológico
+Cicatriz
+Cobertor
+Helicóptero
+Aniversário
+Vulcão
+Arco-íris
+Presidente da República
+Noiva
+Babar
+Montanha-russa
+Natal
+Luz
+Sombra
+Magia
+Maquiadora
+Shopping
+Berço
+Medir
+Aranha
+Jardim
+Trampolim
+Cachoeira
+Iô-iô
+Janela
+Girafa
+Roncar
+Pesadelo
+Lanterna
+Curiosidade
+Panquecas
+Aplicativo
+Convite
+Adolescente
+Satélite
+Jornal
+Diamante
+Lenha
+Sapo
+Andador infantil
+Ração
+Google
+Tocha
+Acampar
+Lago
+Emagrecer
+Fofoca
+Salário
+Sorte'''
