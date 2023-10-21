@@ -1,0 +1,19 @@
+
+
+Opção para gerar uma string para senha mesmo que nada seja digitado no input:
+senha=input("Senha: ") or 'sem senha'
+print(senha)
+#Caso nada seja escrito na variável senha,ele recebera 'sem senha'.
+
+Opção para verificar senha com booleana:
+senha=input("Senha: ")
+if not senha:
+    print('Você não digitou nada')
+#Caso nada seja digitado na variável senha, o interpretador retornará o
+valor False para a variável, assim conseguimos criar uma condição.
+
+EXEMPLO
+nome=str(input("Seu nome: ") or 'nada')
+idade=int(input("Sua idade: ") or 0)
+if not nome or not idade or nome=='nada' or idade == False :
+    print("Desculpe, você deixou campos vazios.")
