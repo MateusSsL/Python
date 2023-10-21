@@ -6,7 +6,7 @@ def mensagem(titulo):
 def lin():
     print("-="*20)
 
-def centra(msg):
+def centralizando(msg):
     print("{:-^40}".format(msg))
 
 def contador(*num): #criar uma tupla com valores
