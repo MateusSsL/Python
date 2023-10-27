@@ -1,2 +1,2 @@
 # Python
-Estudos de python
+Estudos de python3
