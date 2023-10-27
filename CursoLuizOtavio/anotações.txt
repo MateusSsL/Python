@@ -17,3 +17,6 @@ nome=str(input("Seu nome: ") or 'nada')
 idade=int(input("Sua idade: ") or 0)
 if not nome or not idade or nome=='nada' or idade == False :
     print("Desculpe, você deixou campos vazios.")
+
+Para saber sobre alguma função entre no terminal python e use help()
+Para sair da ajuda interativa use quit
