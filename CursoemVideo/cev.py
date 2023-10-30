@@ -55,5 +55,27 @@ def metade(p=0.0, formato=False):
 def moeda(p=0.0 , moeda='R$'):
     return f'{moeda}{p:.2f}'.replace('.' , ',')
 
-def resumo(p,aumen,demin):
-    
+def resumo(p=0,aumen=10,demin=5):
+    print('~~'*20)
+    print(f"Analisando {moeda(p)} ")
+    print(f"Dobro do preço: \t{dobro(p,formato=True)}")
+    print(f"Metade do preço: \t{metade(p,formato=True)}")
+    print(f'Aumento de {aumen}% \t\t{aumentar(p,aumen,formato=True)}')
+    print(f'Redução de {demin}% \t\t{diminuir(p,demin,formato=True)}')
+    print('~~'*20)
+
+RESET = "\033[0m"
+BOLD = "\033[1m"
+RED = "\033[31m"
+UNDERLINE = "\033[4m"
+
+def leiaDinheiro(msg):
+    valido=False
+    while not valido:
+        entrada=str(input(msg)).replace(',' , '.').strip()
+        if entrada.isalpha()or entrada=='':
+            print(f'{RED}{BOLD}Erro: {entrada} é um preço {UNDERLINE}inválido.{RESET}')
+        else:
+            valido=True
+            return float(entrada)
+        

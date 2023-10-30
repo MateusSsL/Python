@@ -1,8 +1,8 @@
-#================================ 107 a 110 ==============================
-from cev import aumentar,diminuir,dobro,metade,centralizando,moeda
+#================================ 107 a 112 ==============================
+from cev import centralizando,resumo,leiaDinheiro
 centralizando('Calculadora')
-p=float(input('Digite o Valor R$: '))
-moeda.resumo(p,50,35)
+p=leiaDinheiro('Digite o preço: R$ ')
+resumo(p,50,35)
 
 #https://youtu.be/s3r8_Aug4y8?si=qSM2wevUZGxSh-Fb&t=1930
 
