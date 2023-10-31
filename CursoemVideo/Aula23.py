@@ -1,5 +1,3 @@
-from cev import leiafloat,leiaint
-import urllib.request
 #=============================== Tratamento de erros e exceções ===================================
 # try:
 #     p=int(input("Digite o Numerador: "))
@@ -33,4 +31,3 @@ import urllib.request
 #     print('O site não está acessível no momento!')
 # else:
 #     print('Tudo OK!')
-#=============================== 115 ===================================

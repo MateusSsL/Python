@@ -1,18 +1,42 @@
+def leiaint(msg):
+    ok=False
+    while True:
+        try:
+            n=int(input(msg))
+            ok=True
+        except Exception as erro:
+            print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
+        if ok:
+            break
+    return n
+
 #Curso Em Video modulo
+def lin(tam=20):
+    '''quebra linha com '''
+    return '-=' * 20
+
 def mensagem(titulo):
     '''
     escreve 3 linhas , e uma mensagem centralizada na segunda'''
-    print("-="*20)
-    print("{:-^40}".format(titulo))
-    print("-="*20)
+    #print("{:-^40}".format(titulo))
+    print(lin())
+    print(titulo.center(42))
+    print(lin())
 
-def lin():
-    '''quebra linha com '''
-    print("-="*20)
+def menu(lista):
+    mensagem('MENU PRINCIPAL')
+    c=1
+    for item in lista:
+        print(f'{c} - {item}')
+        c += 1
+    print(lin())
+    opc= leiaint('Sua Opção: ')
+    return opc
 
 def centralizando(msg):
     '''centraliza uma mensagem com 40 espaços'''
-    print("{:-^40}".format(msg))
+    print(lin())
+    print(msg.center(40))
 
 # def contador(*num): #criar uma tupla com valores
 #     print(num) # num(1, 2, 3, 4, 5)
@@ -79,24 +103,13 @@ def leiaDinheiro(msg):
             valido=True
             return float(entrada)
         
-def leiaint(msg):
-    ok=False
-    while True:
-        try:
-            n=int(input(msg))
-            ok=True
-        except Exception as erro:
-            print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
-        if ok:
-            break
-    return n
 
-def leiafloat(msg):
-    while True:
-        try:
-            n=float(input(msg))
-        except Exception as erro:
-            print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
-            continue
-        return n
+# def leiafloat(msg):
+#     while True:
+#         try:
+#             n=float(input(msg))
+#         except Exception as erro:
+#             print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
+#             continue
+#         return n
         
