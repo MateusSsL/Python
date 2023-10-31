@@ -1,4 +1,4 @@
-#================================ 107 a 112 ==============================
+#================================ex 107 a 112 ==============================
 from cev import centralizando,resumo,leiaDinheiro
 centralizando('Calculadora')
 p=leiaDinheiro('Digite o preço: R$ ')

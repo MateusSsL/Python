@@ -79,3 +79,24 @@ def leiaDinheiro(msg):
             valido=True
             return float(entrada)
         
+def leiaint(msg):
+    ok=False
+    while True:
+        try:
+            n=int(input(msg))
+            ok=True
+        except Exception as erro:
+            print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
+        if ok:
+            break
+    return n
+
+def leiafloat(msg):
+    while True:
+        try:
+            n=float(input(msg))
+        except Exception as erro:
+            print(f'\033[31mERRO! Encontramos o Erro {erro.__class__}.\033[0m')
+            continue
+        return n
+        
