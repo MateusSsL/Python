@@ -73,8 +73,7 @@ import os
 def limpar_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
 #====================================================================================
-from replit import clear
-#HINT: You can call clear() to clear the output in the console.
+
 #====================================================================================
 print(input.__doc__) para ter uma ajuda sobre a função
 help(função) para ler a DOCSTRING da função caso tenha
