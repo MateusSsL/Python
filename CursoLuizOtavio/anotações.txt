@@ -1,4 +1,8 @@
+Tupla = ()
+Listas= []
+Dicionários= {}
 
+\t = da um tab no terminal EX:print(f' \t {variavel}')
 
 Opção para gerar uma string para senha mesmo que nada seja digitado no input:
 senha=input("Senha: ") or 'sem senha'
@@ -20,3 +24,12 @@ if not nome or not idade or nome=='nada' or idade == False :
 
 Para saber sobre alguma função entre no terminal python e use help()
 Para sair da ajuda interativa use quit
+
+#Tupla é uma lista imutável(não aceita mudar seus itens)
+nome= ('Maria','Helena','Luiz','Pedro')
+
+Quando temos muitos itens em uma lista podemos adicionar em uma variavel
+UNDERLINE(*_) que é uma convenção entre os DEV's que é uma variavel "descartavel"
+EXEMPLO: nome1, nome2, *_ =['Maria','Helena','Luiz','Pedro']
+o nome 'Luiz' e 'Pedro' serão guardados na variavel _
+Asterisco significa que ele pode armazenar mais de 1 item(empacotar)

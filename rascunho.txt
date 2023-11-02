@@ -71,6 +71,7 @@ else :
 # Use essa função dentro do seu loop para limpar o terminal
 import os
 def limpar_terminal():
+    '''Use a função para limpar o terminal no vscode'''
     os.system('cls' if os.name == 'nt' else 'clear')
 #====================================================================================
 

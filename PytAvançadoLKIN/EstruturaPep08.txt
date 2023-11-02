@@ -1,0 +1,8 @@
+As linhas de import ficam no topo do arquivo , e cada import
+deve ter sua própria linhas
+Use identação de forma consistente,preferindo espaços ao invés de tabs
+Use 4 espaços para cada nível de identação
+Limite suas linhas aos 79 caractéres(72 para docstrings/comentarios)
+Separe Funções e classes com duas linhas em branco
+Métodos de classes são separados por 1 linha em branco
+Não use espações entre chamadas de função,índices,e argumentos nomeados
